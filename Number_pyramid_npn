@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Number_pyramid_npn
+{
+public Stativ void main(String[]args)
+{
+int i,j;
+Scanner sc=new Scanner(System.in);
+System.out.println("enter the number to be printed");
+int x=sc.nextInt();
+System.out.println("maximum number of times printed");
+int n=sc.nextInt();
+for(i=1;i<=n;i++){
+for(j=n;j>i;j--){
+System.out.print(x+"");
+}
+System.out.println();
+}
+}
+}
